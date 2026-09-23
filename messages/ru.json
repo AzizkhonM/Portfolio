@@ -9,5 +9,234 @@
     },
     "discipline": "FULL-STACK / SOFTWARE ENGINEERING",
     "scroll": "SCROLL"
+  },
+  "Mindset": {
+    "number": "02",
+    "label": "ENGINEERING MINDSET",
+    "statement": {
+      "line1": "Я НЕ ПРОСТО",
+      "line2": "ПИШУ КОД.",
+      "line3": "Я ПРОЕКТИРУЮ",
+      "line4": "СИСТЕМЫ."
+    },
+    "principles": {
+      "structure": {
+        "title": "СНАЧАЛА СТРУКТУРА",
+        "description": "Прежде чем писать код, я думаю о том, как должна работать система. Архитектура и ответственность — прежде всего."
+      },
+      "simple": {
+        "title": "ПРОСТОТА",
+        "description": "Я предпочитаю решения, которые легко понять, поддерживать и изменять."
+      },
+      "change": {
+        "title": "ГОТОВНОСТЬ К ИЗМЕНЕНИЯМ",
+        "description": "Требования меняются, продукты развиваются. Я проектирую систему с учётом следующих версий."
+      },
+      "improve": {
+        "title": "СОЗДАЙ. НАБЛЮДАЙ. УЛУЧШАЙ.",
+        "description": "Реальное использование важнее теоретического совершенства. Создаю, тестирую, изучаю и улучшаю."
+      }
+    }
+  },
+  "SelectedWork": {
+    "number": "03",
+    "label": "SELECTED WORK",
+    "projects": {
+      "zonter": {
+        "name": "Zonter",
+        "description": "Система управления CS2-турнирами. Она объединяет организаторов, команды, матчи, статистику и рабочие процессы турнира в одной системе."
+      },
+      "zmap": {
+        "name": "ZMap",
+        "description": "Интерактивная система veto карт для CS2. Команды в реальном времени банят и выбирают карты, управляя процессом с разных устройств."
+      }
+    }
+  },
+  "HowIBuild": {
+    "number": "04",
+    "label": "HOW I BUILD",
+    "title": {
+      "line1": "ОТ ИДЕИ",
+      "line2": "К СИСТЕМЕ."
+    },
+    "nodes": {
+      "idea": "ИДЕЯ",
+      "frontend": "FRONTEND",
+      "backend": "BACKEND",
+      "database": "DATABASE",
+      "deploy": "DEPLOY"
+    }
+  },
+  "HowIBuild": {
+    "number": "04",
+    "label": "HOW I BUILD",
+    "title": {
+      "line1": "ОТ ИДЕИ",
+      "line2": "К СИСТЕМЕ."
+    },
+    "stages": {
+      "idea": {
+        "label": "IDEA",
+        "title": "ПОНИМАНИЕ ЗАДАЧИ",
+        "description": "Сначала я разбираюсь в проблеме, пользователе и ключевых требованиях.",
+        "tools": []
+      },
+      "frontend": {
+        "label": "FRONTEND",
+        "title": "ИНТЕРФЕЙС",
+        "description": "Создаю пользовательский интерфейс с акцентом на ясность, структуру и поддержку.",
+        "tools": ["NEXT.JS", "VUE", "NUXT"]
+      },
+      "backend": {
+        "label": "BACKEND",
+        "title": "ЛОГИКА",
+        "description": "Реализую бизнес-логику, API, аутентификацию и потоки данных.",
+        "tools": ["LARAVEL", "NESTJS", "REST API", "AUTH"]
+      },
+      "database": {
+        "label": "DATABASE",
+        "title": "ДАННЫЕ",
+        "description": "Проектирую модели данных и связи между ними с учётом дальнейшего развития системы.",
+        "tools": ["POSTGRESQL", "MYSQL", "MONGODB", "PRISMA"]
+      },
+      "deploy": {
+        "label": "DEPLOY",
+        "title": "ЗАПУСК",
+        "description": "Выпускаю систему в production, наблюдаю за её работой и улучшаю её итеративно.",
+        "tools": ["VERCEL", "GITHUB", "CI/CD"]
+      }
+    }
+  },
+  "Education": {
+    "number": "05",
+    "label": "ОБРАЗОВАНИЕ",
+    "period": "2022 — НАСТОЯЩЕЕ ВРЕМЯ",
+    "location": "ТАШКЕНТ, УЗБЕКИСТАН",
+    "items": {
+      "najot": {
+        "number": "01",
+        "institution": "NAJOT TAʼLIM",
+        "program": "FULL-STACK ВЕБ-РАЗРАБОТКА",
+        "type": "СЕРТИФИКАТ ПРОФЕССИОНАЛЬНОГО BOOTCAMP",
+        "period": "СЕНТЯБРЬ 2022 — ИЮНЬ 2023"
+      },
+      "jdu": {
+        "number": "02",
+        "institution": "JAPAN DIGITAL UNIVERSITY",
+        "program": "SOFTWARE ENGINEERING",
+        "type": "СТЕПЕНЬ БАКАЛАВРА — В ПРОЦЕССЕ ОБУЧЕНИЯ",
+        "period": "2023 — НАСТОЯЩЕЕ ВРЕМЯ",
+        "coursework": "OOP · СТРУКТУРЫ ДАННЫХ И АЛГОРИТМЫ · DBMS · РАЗРАБОТКА ВЕБ-ПРИЛОЖЕНИЙ"
+      },
+      "school21": {
+        "number": "03",
+        "institution": "SCHOOL 21 TASHKENT",
+        "program": "PEER-TO-PEER ПРОГРАММА ПО SOFTWARE ENGINEERING",
+        "type": "COMPUTER SCIENCE · QA · SOFTWARE ENGINEERING",
+        "period": "АВГУСТ 2025 — НАСТОЯЩЕЕ ВРЕМЯ"
+      }
+    }
+  },
+  "BeyondCode": {
+    "number": "07",
+    "label": "ЗА РАМКАМИ КОДА",
+    "headline": {
+      "line1": "ЕСТЬ НЕ ТОЛЬКО",
+      "line2": "КОД."
+    },
+    "languages": {
+      "label": "ЯЗЫКИ",
+      "scale": "УРОВЕНЬ"
+    },
+    "levels": {
+      "native": "РОДНОЙ",
+      "c1": "C1 · ПРОДВИНУТЫЙ",
+      "b2": "B2 · ВЫШЕ СРЕДНЕГО",
+      "b1": "B1 · СРЕДНИЙ",
+      "a2": "A2 · ЭЛЕМЕНТАРНЫЙ",
+      "a1": "A1 · НАЧАЛЬНЫЙ"
+    },
+    "languageNames": {
+      "uzbek": "УЗБЕКСКИЙ",
+      "english": "АНГЛИЙСКИЙ",
+      "russian": "РУССКИЙ",
+      "japanese": "ЯПОНСКИЙ"
+    },
+    "interests": {
+      "label": "ИНТЕРЕСЫ",
+      "items": {
+        "cs2": {
+          "title": "CS2",
+          "description": "Соревновательные игры, турниры и системы."
+        },
+        "wikipedia": {
+          "title": "WIKIPEDIA",
+          "description": "Изучение через английскую Википедию · Вклад в узбекскую Википедию."
+        },
+        "localization": {
+          "title": "LOCALIZATION",
+          "description": "Делаю цифровые продукты доступнее на узбекском языке."
+        },
+        "japanese": {
+          "title": "ЯПОНСКИЙ",
+          "description": "Язык, культура и обучение в японском университете."
+        }
+      }
+    },
+    "exploring": {
+      "label": "СЕЙЧАС ИЗУЧАЮ",
+      "now": "СЕЙЧАС",
+      "items": {
+        "ai": {
+          "title": "AI / ML",
+          "description": "Изучаю машинное обучение и практические AI-системы."
+        },
+        "systemDesign": {
+          "title": "SYSTEM DESIGN",
+          "description": "Проектирование масштабируемых и поддерживаемых программных систем."
+        },
+        "frameworks": {
+          "title": "FRAMEWORKS",
+          "description": "Изучаю новые фреймворки и улучшаю подход к их использованию."
+        }
+      }
+    },
+    "footer": {
+      "desktop": "БОЛЬШЕ, ЧЕМ SOFTWARE",
+      "mobile": "ЗА РАМКАМИ КОДА"
+    }
+  },
+  "Contact": {
+    "number": "08",
+    "label": "КОНТАКТ",
+    "headline": {
+      "line1": "ДАВАЙТЕ СОЗДАДИМ",
+      "line2": "ЧТО-ТО ПОЛЕЗНОЕ."
+    },
+    "form": {
+      "name": "ИМЯ",
+      "namePlaceholder": "Ваше имя",
+      "email": "EMAIL",
+      "emailPlaceholder": "email@example.com",
+      "message": "СООБЩЕНИЕ",
+      "messagePlaceholder": "Расскажите о вашем проекте...",
+      "submit": "ОТПРАВИТЬ",
+      "sending": "ОТПРАВКА...",
+      "success": "СООБЩЕНИЕ ОТПРАВЛЕНО.",
+      "error": "НЕ УДАЛОСЬ ОТПРАВИТЬ.",
+      "errors": {
+        "nameRequired": "Введите имя.",
+        "nameMin": "Имя должно содержать минимум 3 символа.",
+        "emailRequired": "Введите email.",
+        "emailInvalid": "Введите корректный email.",
+        "messageRequired": "Введите сообщение.",
+        "messageMin": "Сообщение должно содержать минимум 10 символов."
+      }
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram"
+    }
   }
 }

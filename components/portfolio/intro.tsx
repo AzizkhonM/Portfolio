@@ -2,6 +2,7 @@ import { Link } from "@/i18n/routing";
 import { getLocale, getTranslations } from "next-intl/server";
 import { InteractiveDotPattern } from "../ui/interactive-dot-pattern";
 import { IntroScroll } from "./intro-scroll";
+import { CommitTyping } from "./commit-typing";
 
 export default async function Intro() {
   const t = await getTranslations("Intro");
@@ -9,7 +10,6 @@ export default async function Intro() {
 
   return (
     <IntroScroll
-      key={locale}
       lines={[
         t("headline.line1"),
         t("headline.line2"),
@@ -21,7 +21,7 @@ export default async function Intro() {
 
       <header className="relative z-10 flex items-start justify-between px-6 py-6 md:px-10 md:py-8">
         <div>
-          <p className="text-sm font-medium tracking-tight">ALEX</p>
+          <p className="text-sm font-medium tracking-tight">AZIZKHON MUZAFFAROV</p>
 
           <p className="mt-1 text-xs uppercase tracking-[0.2em] opacity-60">
             {t("role")}

@@ -9,5 +9,218 @@
     },
     "discipline": "FULL-STACK / SOFTWARE ENGINEERING",
     "scroll": "SCROLL"
+  },
+  "Mindset": {
+    "number": "02",
+    "label": "ENGINEERING MINDSET",
+    "statement": {
+      "line1": "MEN SHUNCHAKI",
+      "line2": "KOD YOZMAYMAN.",
+      "line3": "MEN TIZIMLAR",
+      "line4": "YARATAMAN."
+    },
+    "principles": {
+      "structure": {
+        "title": "AVVAL TUZILMA",
+        "description": "Kod yozishdan oldin tizim qanday ishlashini o‘ylayman. Arxitektura, ma’lumotlar va mas’uliyatlar birinchi o‘rinda."
+      },
+      "simple": {
+        "title": "SODDALIK",
+        "description": "Tushunish, qo‘llab-quvvatlash va o‘zgartirish oson bo‘lgan yechimlarni afzal ko‘raman."
+      },
+      "change": {
+        "title": "O‘ZGARISHGA TAYYOR",
+        "description": "Talablar o‘zgaradi, mahsulotlar rivojlanadi. Tizimni keyingi versiyani ham hisobga olib quraman."
+      },
+      "improve": {
+        "title": "YARAT. KUZAT. TAKOMILLASHTIR.",
+        "description": "Haqiqiy foydalanish nazariy mukammallikdan muhimroq. Yarataman, sinayman, o‘rganaman va yaxshilayman."
+      }
+    }
+  },
+  "SelectedWork": {
+    "number": "03",
+    "label": "SELECTED WORK",
+    "projects": {
+      "zonter": {
+        "name": "Zonter",
+        "description": "CS2 turnirlarini boshqarish uchun qurilayotgan tournament operating system. Tashkilotchilar, jamoalar, matchlar, statistika va turnir jarayonlarini yagona tizimga birlashtiradi."
+      },
+      "zmap": {
+        "name": "ZMap",
+        "description": "CS2 uchun interaktiv map veto tizimi. Jamoalar real vaqt rejimida maplarni ban va pick qiladi, veto jarayoni esa alohida qurilmalar orqali boshqariladi."
+      }
+    }
+  },
+  "HowIBuild": {
+    "number": "04",
+    "label": "HOW I BUILD",
+    "title": {
+      "line1": "G‘OYADAN",
+      "line2": "TIZIMGACHA."
+    },
+    "stages": {
+      "idea": {
+        "label": "IDEA",
+        "title": "MUAMMONI TUSHUNISH",
+        "description": "Avval muammo, foydalanuvchi va tizimning asosiy talablarini aniqlayman."
+      },
+      "frontend": {
+        "label": "FRONTEND",
+        "title": "INTERFACE",
+        "description": "Foydalanuvchi ko‘radigan qatlamni aniq va tushunarli qilib quraman.",
+        "tools": ["NEXT.JS", "VUE", "NUXT"]
+      },
+      "backend": {
+        "label": "BACKEND",
+        "title": "LOGIC",
+        "description": "Business logic, API, authentication va ma'lumotlar oqimini quraman.",
+        "tools": ["LARAVEL", "NESTJS", "REST API", "AUTH"]
+      },
+      "database": {
+        "label": "DATABASE",
+        "title": "DATA",
+        "description": "Ma’lumotlar modeli va ular orasidagi bog‘lanishlarni tizimning kelajakdagi o‘sishini hisobga olib loyihalayman.",
+        "tools": ["POSTGRESQL", "MYSQL", "MONGODB", "PRISMA"]
+      },
+      "deploy": {
+        "label": "DEPLOY",
+        "title": "SHIP",
+        "description": "Tayyor tizimni productionga chiqaraman, kuzataman va keyingi iteratsiyalarni qilaman.",
+        "tools": ["VERCEL", "GITHUB", "CI/CD"]
+      }
+    }
+  },
+  "Education": {
+    "number": "05",
+    "label": "TA’LIM",
+    "period": "2022 — HOZIRGACHA",
+    "location": "TOSHKENT, O‘ZBEKISTON",
+    "items": {
+      "najot": {
+        "number": "01",
+        "institution": "NAJOT TA’LIM",
+        "program": "FULL-STACK WEB DASTURLASH",
+        "type": "PROFESSIONAL BOOTCAMP SERTIFIKATI",
+        "period": "2022-YIL SENTABR — 2023-YIL IYUN"
+      },
+      "jdu": {
+        "number": "02",
+        "institution": "JAPAN DIGITAL UNIVERSITY",
+        "program": "SOFTWARE ENGINEERING",
+        "type": "BAKALAVR DARAJASI — DAVOM ETMOQDA",
+        "period": "2023-YIL OKTABR — HOZIRGACHA",
+        "coursework": "OOP · MA’LUMOTLAR TUZILMASI VA ALGORITMLAR · DBMS · WEB ILOVALAR ISHLAB CHIQISH"
+      },
+      "school21": {
+        "number": "03",
+        "institution": "SCHOOL 21 TASHKENT",
+        "program": "PEER-TO-PEER SOFTWARE ENGINEERING DASTURI",
+        "type": "COMPUTER SCIENCE · QA · SOFTWARE ENGINEERING",
+        "period": "2025-YIL AVGUST — HOZIRGACHA"
+      }
+    }
+  },
+  "BeyondCode": {
+    "number": "07",
+    "label": "KODDAN TASHQARI",
+    "headline": {
+      "line1": "KODDAN KO‘RA",
+      "line2": "KO‘PROQ NARSA."
+    },
+    "languages": {
+      "label": "TILLAR",
+      "scale": "DARJA"
+    },
+    "levels": {
+      "native": "ONA TILI",
+      "c1": "C1 · ILG‘OR",
+      "b2": "B2 · O‘RTADAN YUQORI",
+      "b1": "B1 · O‘RTA",
+      "a2": "A2 · BOSHLANG‘ICH",
+      "a1": "A1 · ELEMENTAR"
+    },
+    "languageNames": {
+      "uzbek": "O‘ZBEK",
+      "english": "INGLIZ",
+      "russian": "RUS",
+      "japanese": "YAPON"
+    },
+    "interests": {
+      "label": "QIZIQISHLAR",
+      "items": {
+        "cs2": {
+          "title": "CS2",
+          "description": "Raqobatbardosh gaming, turnirlar va tizimlar."
+        },
+        "wikipedia": {
+          "title": "WIKIPEDIA",
+          "description": "Inglizcha Wikipedia orqali o‘rganish · O‘zbekcha Wikipedia'ga hissa qo‘shish."
+        },
+        "localization": {
+          "title": "LOCALIZATION",
+          "description": "Raqamli mahsulotlarni o‘zbek tilida yanada qulay qilish."
+        },
+        "japanese": {
+          "title": "YAPON TILI",
+          "description": "Til, madaniyat va Yapon universitetida tahsil olish."
+        }
+      }
+    },
+    "exploring": {
+      "label": "HOZIR O‘RGANAYAPMAN",
+      "now": "HOZIR",
+      "items": {
+        "ai": {
+          "title": "AI / ML",
+          "description": "Machine learning va amaliy AI tizimlarini o‘rganish."
+        },
+        "systemDesign": {
+          "title": "SYSTEM DESIGN",
+          "description": "Masshtablanuvchi va qo‘llab-quvvatlash oson bo‘lgan dasturiy tizimlarni loyihalash."
+        },
+        "frameworks": {
+          "title": "FRAMEWORKS",
+          "description": "Yangi frameworklarni o‘rganish va ulardan foydalanish uslubimni yaxshilash."
+        }
+      }
+    },
+    "footer": {
+      "desktop": "MORE THAN SOFTWARE",
+      "mobile": "BEYOND CODE"
+    }
+  },
+  "Contact": {
+    "number": "08",
+    "label": "ALOQA",
+    "headline": {
+      "line1": "KELING, BIROR",
+      "line2": "NARSA YARATAMIZ."
+    },
+    "form": {
+      "name": "ISM",
+      "namePlaceholder": "Ismingiz",
+      "email": "EMAIL",
+      "emailPlaceholder": "email@example.com",
+      "message": "XABAR",
+      "messagePlaceholder": "Loyihangiz haqida yozing...",
+      "submit": "XABAR YUBORISH",
+      "sending": "YUBORILMOQDA...",
+      "success": "XABARINGIZ YUBORILDI.",
+      "error": "XABAR YUBORILMADI.",
+      "errors": {
+        "nameRequired": "Ismni kiriting.",
+        "nameMin": "Ism kamida 3 ta belgidan iborat bo‘lishi kerak.",
+        "emailRequired": "Emailni kiriting.",
+        "emailInvalid": "Email manzil noto‘g‘ri.",
+        "messageRequired": "Xabarni kiriting.",
+        "messageMin": "Xabar kamida 10 ta belgidan iborat bo‘lishi kerak."
+      }
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram"
+    }
   }
 }

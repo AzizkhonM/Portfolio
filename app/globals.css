@@ -57,3 +57,49 @@ body {
 .animate-scroll-arrow {
   animation: scroll-arrow 1.4s ease-in-out infinite;
 }
+
+@theme inline {
+  --font-google-sans-code: var(--font-google-sans-code);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fffaf0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #171411;
+  border-radius: 0;
+  border: 2px solid #fffaf0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3a332d;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #171411 #fffaf0;
+}
+
+
+@keyframes status-blink {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 rgba(34, 197, 94, 0);
+  }
+
+  50% {
+    opacity: 0.35;
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.45);
+  }
+}
+
+.animate-status-blink {
+  animation: status-blink 2s ease-in-out infinite;
+}

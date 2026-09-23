@@ -9,5 +9,219 @@
     },
     "discipline": "FULL-STACK / SOFTWARE ENGINEERING",
     "scroll": "SCROLL"
+  },
+  "Mindset": {
+    "number": "02",
+    "label": "ENGINEERING MINDSET",
+    "statement": {
+      "line1": "I DON'T JUST",
+      "line2": "WRITE CODE.",
+      "line3": "I DESIGN",
+      "line4": "SYSTEMS."
+    },
+    "principles": {
+      "structure": {
+        "title": "STRUCTURE BEFORE CODE",
+        "description": "Before writing code, I think about how the system should work. Architecture, data, and responsibilities come first."
+      },
+      "simple": {
+        "title": "SIMPLE OVER CLEVER",
+        "description": "I prefer solutions that are easy to understand, maintain, and change."
+      },
+      "change": {
+        "title": "BUILD FOR CHANGE",
+        "description": "Requirements change and products evolve. I build systems with the next version in mind."
+      },
+      "improve": {
+        "title": "SHIP. OBSERVE. IMPROVE.",
+        "description": "Real use matters more than theoretical perfection. Build, test, learn, and improve."
+      }
+    }
+  },
+  "SelectedWork": {
+    "number": "03",
+    "label": "SELECTED WORK",
+    "projects": {
+      "zonter": {
+        "name": "Zonter",
+        "description": "A tournament operating system for managing CS2 competitions. It brings organizers, teams, matches, statistics, and tournament workflows into one system."
+      },
+      "zmap": {
+        "name": "ZMap",
+        "description": "An interactive map veto system for CS2. Teams ban and pick maps in real time while the veto process is controlled across separate devices."
+      }
+    }
+  },
+  "HowIBuild": {
+    "number": "04",
+    "label": "HOW I BUILD",
+    "title": {
+      "line1": "FROM IDEA",
+      "line2": "TO SYSTEM."
+    },
+    "stages": {
+      "idea": {
+        "label": "IDEA",
+        "title": "UNDERSTAND THE PROBLEM",
+        "description": "I start by understanding the problem, the user, and the core requirements.",
+        "tools": []
+      },
+      "frontend": {
+        "label": "FRONTEND",
+        "title": "INTERFACE",
+        "description": "I build the user-facing layer with clarity, structure, and maintainability in mind.",
+        "tools": ["NEXT.JS", "VUE", "NUXT"]
+      },
+      "backend": {
+        "label": "BACKEND",
+        "title": "LOGIC",
+        "description": "I build the business logic, APIs, authentication, and data flow.",
+        "tools": ["LARAVEL", "NESTJS", "REST API", "AUTH"]
+      },
+      "database": {
+        "label": "DATABASE",
+        "title": "DATA",
+        "description": "I design data models and relationships with future growth in mind.",
+        "tools": ["POSTGRESQL", "MYSQL", "MONGODB", "PRISMA"]
+      },
+      "deploy": {
+        "label": "DEPLOY",
+        "title": "SHIP",
+        "description": "I ship the system to production, observe it, and iterate.",
+        "tools": ["VERCEL", "GITHUB", "CI/CD"]
+      }
+    }
+  },
+  "Education": {
+    "number": "05",
+    "label": "EDUCATION",
+    "period": "2022 — PRESENT",
+    "location": "TASHKENT, UZBEKISTAN",
+    "items": {
+      "najot": {
+        "number": "01",
+        "institution": "NAJOT TAʼLIM",
+        "program": "FULL-STACK WEB DEVELOPMENT",
+        "type": "PROFESSIONAL BOOTCAMP CERTIFICATE",
+        "period": "SEPTEMBER 2022 — JUNE 2023"
+      },
+      "jdu": {
+        "number": "02",
+        "institution": "JAPAN DIGITAL UNIVERSITY",
+        "program": "SOFTWARE ENGINEERING",
+        "type": "BACHELOR'S DEGREE — IN PROGRESS",
+        "period": "2023 — PRESENT",
+        "coursework": "OOP · DATA STRUCTURES & ALGORITHMS · DBMS · WEB APPLICATION DEVELOPMENT"
+      },
+      "school21": {
+        "number": "03",
+        "institution": "SCHOOL 21 TASHKENT",
+        "program": "PEER-TO-PEER SOFTWARE ENGINEERING PROGRAM",
+        "type": "COMPUTER SCIENCE · QA · SOFTWARE ENGINEERING",
+        "period": "AUGUST 2025 — PRESENT"
+      }
+    }
+  },
+  "BeyondCode": {
+    "number": "07",
+    "label": "BEYOND CODE",
+    "headline": {
+      "line1": "THERE'S MORE",
+      "line2": "THAN CODE."
+    },
+    "languages": {
+      "label": "LANGUAGES",
+      "scale": "PROFICIENCY"
+    },
+    "levels": {
+      "native": "NATIVE",
+      "c1": "C1 · ADVANCED",
+      "b2": "B2 · UPPER-INTERMEDIATE",
+      "b1": "B1 · INTERMEDIATE",
+      "a2": "A2 · ELEMENTARY",
+      "a1": "A1 · BEGINNER"
+    },
+    "languageNames": {
+      "uzbek": "UZBEK",
+      "english": "ENGLISH",
+      "russian": "RUSSIAN",
+      "japanese": "JAPANESE"
+    },
+    "interests": {
+      "label": "INTERESTS",
+      "items": {
+        "cs2": {
+          "title": "CS2",
+          "description": "Competitive gaming, tournaments & systems."
+        },
+        "wikipedia": {
+          "title": "WIKIPEDIA",
+          "description": "Learning through English Wikipedia · Contributing to Uzbek Wikipedia."
+        },
+        "localization": {
+          "title": "LOCALIZATION",
+          "description": "Making digital products more accessible in Uzbek."
+        },
+        "japanese": {
+          "title": "JAPANESE",
+          "description": "Language, culture & studying in a Japanese university."
+        }
+      }
+    },
+    "exploring": {
+      "label": "CURRENTLY EXPLORING",
+      "now": "NOW",
+      "items": {
+        "ai": {
+          "title": "AI / ML",
+          "description": "Exploring machine learning and practical AI systems."
+        },
+        "systemDesign": {
+          "title": "SYSTEM DESIGN",
+          "description": "Designing scalable, maintainable software systems."
+        },
+        "frameworks": {
+          "title": "FRAMEWORKS",
+          "description": "Learning new frameworks and improving how I use them."
+        }
+      }
+    },
+    "footer": {
+      "desktop": "MORE THAN SOFTWARE",
+      "mobile": "BEYOND CODE"
+    }
+  },
+  "Contact": {
+    "number": "08",
+    "label": "CONTACT",
+    "headline": {
+      "line1": "LET'S BUILD",
+      "line2": "SOMETHING USEFUL."
+    },
+    "form": {
+      "name": "NAME",
+      "namePlaceholder": "Your name",
+      "email": "EMAIL",
+      "emailPlaceholder": "email@example.com",
+      "message": "MESSAGE",
+      "messagePlaceholder": "Tell me about your project...",
+      "submit": "SEND MESSAGE",
+      "sending": "SENDING...",
+      "success": "MESSAGE SENT.",
+      "error": "MESSAGE FAILED.",
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "nameMin": "Name must be at least 3 characters.",
+        "emailRequired": "Please enter your email.",
+        "emailInvalid": "Please enter a valid email address.",
+        "messageRequired": "Please enter a message.",
+        "messageMin": "Message must be at least 10 characters."
+      }
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "telegram": "Telegram"
+    }
   }
 }
