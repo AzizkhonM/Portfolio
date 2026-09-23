@@ -112,7 +112,7 @@ export function IntroScroll({ children, lines }: IntroScrollProps) {
       {children}
 
       {/* Headline */}
-      <div className="relative z-10 flex min-h-[calc(100vh-150px)] items-center px-6 md:px-10">
+      <div className="relative z-10 flex min-h-[calc(100dvh-150px)] items-center px-6 md:px-10">
         <h1 className="pointer-events-none max-w-4xl font-advaken text-[2rem] font-medium lowercase leading-[0.98] tracking-[-0.04em] sm:text-[2.8rem] md:text-[4rem] lg:text-[5rem]">
           {lines.map((line, index) => (
             <span
