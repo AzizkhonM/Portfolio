@@ -1,0 +1,13 @@
+{
+  "Intro": {
+    "role": "Инженер-программист",
+    "headline": {
+      "line1": "Я СОЗДАЮ",
+      "line2": "ЦИФРОВЫЕ СИСТЕМЫ.",
+      "line3": "ОТ ИДЕИ",
+      "line4": "ДО PRODUCTION."
+    },
+    "discipline": "FULL-STACK / SOFTWARE ENGINEERING",
+    "scroll": "SCROLL"
+  }
+}
