@@ -5,7 +5,7 @@ import { Google_Sans_Code } from "next/font/google";
 
 import "./globals.css";
 
-const siteUrl = "https://theazizkhon.com";
+const siteUrl = "https://theazizkhon.uz";
 
 const seo = {
   uz: {
