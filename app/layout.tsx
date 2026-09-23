@@ -56,7 +56,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       locale,
       url: locale === "uz" ? "/" : `/${locale}`,
-      siteName: "Alex — Software Engineer",
+      siteName: "Azizkhon Muzaffarov — Software Engineer",
       title: currentSeo.title,
       description: currentSeo.description,
       images: [
@@ -64,7 +64,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: "/og-image.png",
           width: 1200,
           height: 630,
-          alt: "Alex — Software Engineer",
+          alt: "Azizkhon Muzaffarov — Software Engineer",
         },
       ],
     },
@@ -89,21 +89,6 @@ export async function generateMetadata(): Promise<Metadata> {
         ru: "/ru",
         ja: "/ja",
       },
-    },
-
-    openGraph: {
-      type: "website",
-      locale,
-      url: locale === "uz" ? "/" : `/${locale}`,
-      siteName: "Azizkhon Muzaffarov — Software Engineer",
-      title: currentSeo.title,
-      description: currentSeo.description,
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title: currentSeo.title,
-      description: currentSeo.description,
     },
 
     icons: {
