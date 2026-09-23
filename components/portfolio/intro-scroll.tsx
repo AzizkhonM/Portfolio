@@ -58,7 +58,7 @@ export function IntroScroll({ children, lines }: IntroScrollProps) {
   return (
     <section
       ref={sectionRef}
-      className="relative min-h-screen overflow-hidden"
+      className="relative min-h-dvh overflow-hidden"
     >
       {/* Dot background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
