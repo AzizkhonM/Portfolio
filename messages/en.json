@@ -223,5 +223,11 @@
       "linkedin": "LinkedIn",
       "telegram": "Telegram"
     }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "PAGE NOT FOUND.",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "BACK TO HOME"
   }
 }

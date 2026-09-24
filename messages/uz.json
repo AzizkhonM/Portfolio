@@ -222,5 +222,11 @@
       "linkedin": "LinkedIn",
       "telegram": "Telegram"
     }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "SAHIFA TOPILMADI.",
+    "description": "Siz izlayotgan sahifa mavjud emas yoki ko‘chirilgan.",
+    "backHome": "BOSH SAHIFAGA QAYTISH"
   }
 }
