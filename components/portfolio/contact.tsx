@@ -230,11 +230,11 @@ export function Contact() {
       <div className="flex min-h-dvh flex-col px-6 py-8 md:px-10 md:py-10">
         {/* HEADER */}
         <div className="flex items-start justify-between">
-          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-50">
+          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-65">
             {t("number")}
           </p>
 
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">
+          <p className="text-[10px] uppercase tracking-[0.2em] opacity-65">
             {t("label")}
           </p>
         </div>
@@ -267,7 +267,7 @@ export function Contact() {
               <div className="border-b border-[#171411]/15">
                 <label
                   htmlFor="contact-name"
-                  className="block pt-4 text-[9px] uppercase tracking-[0.2em] opacity-40"
+                  className="block pt-4 text-[9px] uppercase tracking-[0.2em] opacity-55"
                 >
                   {t("form.name")}
                 </label>
@@ -303,7 +303,7 @@ export function Contact() {
               <div className="border-b border-[#171411]/15">
                 <label
                   htmlFor="contact-email"
-                  className="block pt-4 text-[9px] uppercase tracking-[0.2em] opacity-40"
+                  className="block pt-4 text-[9px] uppercase tracking-[0.2em] opacity-55"
                 >
                   {t("form.email")}
                 </label>
@@ -341,7 +341,7 @@ export function Contact() {
               <div className="border-b border-[#171411]/15">
                 <label
                   htmlFor="contact-message"
-                  className="block pt-4 text-[9px] uppercase tracking-[0.2em] opacity-40"
+                  className="block pt-4 text-[9px] uppercase tracking-[0.2em] opacity-55"
                 >
                   {t("form.message")}
                 </label>
@@ -451,7 +451,7 @@ export function Contact() {
                       "
                   />
 
-                  <span className="text-[9px] uppercase tracking-[0.18em] opacity-45">
+                  <span className="text-[9px] uppercase tracking-[0.18em] opacity-60">
                     {t(`social.${key}`)}
                   </span>
                 </a>
@@ -461,7 +461,7 @@ export function Contact() {
         </div>
 
         {/* FOOTER */}
-        <div className="mt-12 flex items-end justify-between border-t border-[#171411]/10 pt-5 text-[9px] uppercase tracking-[0.2em] opacity-35">
+        <div className="mt-12 flex items-end justify-between border-t border-[#171411]/10 pt-5 text-[9px] uppercase tracking-[0.2em] opacity-50">
           <span>AZIZKHON</span>
           <span>2026</span>
         </div>

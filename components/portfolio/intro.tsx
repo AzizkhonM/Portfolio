@@ -66,13 +66,13 @@ export default async function Intro() {
       <div className="absolute bottom-6 left-6 right-6 z-10 md:bottom-8 md:left-10 md:right-10">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3 md:items-end">
           {/* Discipline */}
-          <p className="text-center text-[10px] uppercase tracking-[0.2em] opacity-60 md:text-left">
+          <p className="text-center text-[10px] uppercase tracking-[0.2em] opacity-65 md:text-left">
             {t("discipline")}
           </p>
 
           {/* Scroll */}
           <div className="flex flex-col items-center gap-2">
-            <span className="text-[10px] uppercase tracking-[0.25em] opacity-60">
+            <span className="text-[10px] uppercase tracking-[0.25em] opacity-65">
               {t("scroll")}
             </span>
 

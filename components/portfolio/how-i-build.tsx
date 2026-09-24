@@ -231,11 +231,11 @@ export function HowIBuild() {
         {/* HEADER */}
 
         <div className="flex items-start justify-between">
-          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-50">
+          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-65">
             {t("number")}
           </p>
 
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">
+          <p className="text-[10px] uppercase tracking-[0.2em] opacity-65">
             {t("label")}
           </p>
         </div>
@@ -385,7 +385,7 @@ export function HowIBuild() {
 
         {/* FOOTER */}
 
-        <div className="flex justify-between text-[9px] uppercase tracking-[0.2em] opacity-35">
+        <div className="flex justify-between text-[9px] uppercase tracking-[0.2em] opacity-50">
           <span>01 — 05</span>
 
           <span className="hidden md:block">ENGINEERING PROCESS</span>
@@ -439,17 +439,17 @@ function StageCard({
             {/* NUMBER */}
 
             <div className="flex justify-between">
-              <span className="text-[9px] tracking-[0.2em] opacity-40">
+              <span className="text-[9px] tracking-[0.2em] opacity-55">
                 0{index + 1}
               </span>
 
-              <span className="text-[9px] tracking-[0.2em] opacity-30">/</span>
+              <span className="text-[9px] tracking-[0.2em] opacity-50">/</span>
             </div>
 
             {/* CONTENT */}
 
             <div>
-              <p className="text-[9px] uppercase tracking-[0.18em] opacity-40 min-[768px]:max-[1023px]:text-[8px]">
+              <p className="text-[9px] uppercase tracking-[0.18em] opacity-55 min-[768px]:max-[1023px]:text-[8px]">
                 {t(`stages.${stage}.label`)}
               </p>
 

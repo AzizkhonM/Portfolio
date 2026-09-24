@@ -70,11 +70,11 @@ export function BeyondCode() {
       <div className="px-6 py-8 md:px-10 md:py-10">
         {/* HEADER */}
         <div className="flex items-start justify-between">
-          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-50">
+          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-60">
             {t("number")}
           </p>
 
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">
+          <p className="text-[10px] uppercase tracking-[0.2em] opacity-65">
             {t("label")}
           </p>
         </div>
@@ -100,11 +100,11 @@ export function BeyondCode() {
         {/* LANGUAGES */}
         <div className="mt-[12dvh]">
           <div className="mb-5 flex items-center justify-between">
-            <p className="text-[9px] uppercase tracking-[0.22em] opacity-45">
+            <p className="text-[9px] uppercase tracking-[0.22em] opacity-60">
               {t("languages.label")}
             </p>
 
-            <p className="text-[9px] uppercase tracking-[0.18em] opacity-30">
+            <p className="text-[9px] uppercase tracking-[0.18em] opacity-50">
               {t("languages.scale")}
             </p>
           </div>
@@ -147,11 +147,11 @@ export function BeyondCode() {
                   ))}
                 </div>
 
-                <p className="hidden min-w-[145px] text-right text-[9px] uppercase tracking-[0.12em] opacity-45 md:block">
+                <p className="hidden min-w-[145px] text-right text-[9px] uppercase tracking-[0.12em] opacity-60 md:block">
                   {t(`levels.${language.level}`)}
                 </p>
 
-                <p className="text-[9px] uppercase tracking-[0.12em] opacity-45 md:hidden">
+                <p className="text-[9px] uppercase tracking-[0.12em] opacity-60 md:hidden">
                   {language.level.toUpperCase()}
                 </p>
               </div>
@@ -164,7 +164,7 @@ export function BeyondCode() {
           {/* INTERESTS */}
           <div className="md:border-r md:border-[#171411]/12 md:pr-10">
             <div className="mb-5">
-              <p className="text-[9px] uppercase tracking-[0.22em] opacity-45">
+              <p className="text-[9px] uppercase tracking-[0.22em] opacity-60">
                 {t("interests.label")}
               </p>
             </div>
@@ -184,7 +184,7 @@ export function BeyondCode() {
                   "
                 >
                   <div className="flex items-start justify-between">
-                    <span className="text-[9px] tracking-[0.2em] opacity-40">
+                    <span className="text-[9px] tracking-[0.2em] opacity-55">
                       {interest.number}
                     </span>
                   </div>
@@ -193,7 +193,7 @@ export function BeyondCode() {
                     {t(`interests.items.${interest.key}.title`)}
                   </h3>
 
-                  <p className="mt-4 max-w-sm text-[10px] leading-[1.6] opacity-50">
+                  <p className="mt-4 max-w-sm text-[10px] leading-[1.6] opacity-65">
                     {t(`interests.items.${interest.key}.description`)}
                   </p>
                 </article>
@@ -204,11 +204,11 @@ export function BeyondCode() {
           {/* CURRENTLY EXPLORING */}
           <div className="md:pl-10">
             <div className="mb-5 flex items-center justify-between">
-              <p className="text-[9px] uppercase tracking-[0.22em] opacity-45">
+              <p className="text-[9px] uppercase tracking-[0.22em] opacity-60">
                 {t("exploring.label")}
               </p>
 
-              <span className="flex items-center gap-2 text-[8px] uppercase tracking-[0.15em] opacity-40">
+              <span className="flex items-center gap-2 text-[8px] uppercase tracking-[0.15em] opacity-55">
                 <RiCircleFill className="h-2 w-2 shrink-0 text-green-500 animate-status-blink" />
                 {t("exploring.now")}
               </span>
@@ -225,7 +225,7 @@ export function BeyondCode() {
                   "
                 >
                   <div className="flex items-start gap-4">
-                    <span className="pt-1 text-[9px] tracking-[0.2em] opacity-35">
+                    <span className="pt-1 text-[9px] tracking-[0.2em] opacity-50">
                       {item.number}
                     </span>
 
@@ -234,7 +234,7 @@ export function BeyondCode() {
                         {t(`exploring.items.${item.key}.title`)}
                       </h3>
 
-                      <p className="mt-3 max-w-md text-[10px] leading-[1.6] opacity-50">
+                      <p className="mt-3 max-w-md text-[10px] leading-[1.6] opacity-65">
                         {t(`exploring.items.${item.key}.description`)}
                       </p>
                     </div>
@@ -246,7 +246,7 @@ export function BeyondCode() {
         </div>
 
         {/* FOOTER */}
-        <div className="mt-10 flex justify-between text-[9px] uppercase tracking-[0.2em] opacity-35">
+        <div className="mt-10 flex justify-between text-[9px] uppercase tracking-[0.2em] opacity-50">
           <span>01 — 03</span>
 
           <span className="hidden md:block">{t("footer.desktop")}</span>

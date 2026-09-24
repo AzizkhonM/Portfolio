@@ -83,11 +83,11 @@ export function SelectedWork() {
     >
       {/* HEADER */}
       <div className="absolute left-0 right-0 top-0 z-20 flex items-start justify-between px-6 py-8 md:px-10 md:py-10">
-        <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-50">
+        <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-65">
           {t("number")}
         </p>
 
-        <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">
+        <p className="text-[10px] uppercase tracking-[0.2em] opacity-65">
           {t("label")}
         </p>
       </div>
@@ -113,15 +113,15 @@ export function SelectedWork() {
               {/* INFO */}
               <div>
                 <div className="mb-8 flex items-center gap-4">
-                  <span className="text-[10px] tracking-[0.2em] opacity-40">
+                  <span className="text-[10px] tracking-[0.2em] opacity-55">
                     {project.number}
                   </span>
 
-                  <span className="text-[10px] tracking-[0.2em] opacity-30">
+                  <span className="text-[10px] tracking-[0.2em] opacity-50">
                     /
                   </span>
 
-                  <span className="text-[10px] uppercase tracking-[0.15em] opacity-50">
+                  <span className="text-[10px] uppercase tracking-[0.15em] opacity-65">
                     {project.stack}
                   </span>
                 </div>
@@ -139,7 +139,7 @@ export function SelectedWork() {
                   {t(`projects.${project.key}.name`)}
                 </h2>
 
-                <p className="mt-8 max-w-xl text-sm leading-[1.7] opacity-60 md:text-base">
+                <p className="mt-8 max-w-xl text-sm leading-[1.7] opacity-65 md:text-base">
                   {t(`projects.${project.key}.description`)}
                 </p>
               </div>
@@ -167,7 +167,7 @@ export function SelectedWork() {
                 />
 
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-[10px] uppercase tracking-[0.2em] opacity-30">
+                  <span className="text-[10px] uppercase tracking-[0.2em] opacity-50">
                     {project.key}
                   </span>
                 </div>
@@ -179,7 +179,7 @@ export function SelectedWork() {
 
       {/* SCROLL INDICATOR */}
       <div className="absolute bottom-8 left-6 z-20 md:left-10">
-        <span className="text-[10px] uppercase tracking-[0.2em] opacity-40">
+        <span className="text-[10px] uppercase tracking-[0.2em] opacity-55">
           SCROLL →
         </span>
       </div>

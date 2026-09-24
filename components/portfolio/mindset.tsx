@@ -109,11 +109,11 @@ export function Mindset() {
       <div className="flex min-h-dvh flex-col px-6 py-8 md:px-10 md:py-10">
         {/* SECTION HEADER */}
         <div className="flex items-start justify-between">
-          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-50">
+          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-65">
             {t("number")}
           </p>
 
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">
+          <p className="text-[10px] uppercase tracking-[0.2em] opacity-65">
             {t("label")}
           </p>
         </div>
@@ -123,7 +123,7 @@ export function Mindset() {
           {/* STATEMENT */}
           <div className="relative h-[calc(clamp(2.8rem,8vw,8rem)*1.8)] w-full">
             {/* OLD TEXT */}
-            <div
+            <h2
               ref={oldTextRef}
               className="
                 absolute
@@ -139,12 +139,11 @@ export function Mindset() {
               "
             >
               <span className="block">{t("statement.line1")}</span>
-
               <span className="block">{t("statement.line2")}</span>
-            </div>
+            </h2>
 
             {/* NEW TEXT */}
-            <div
+            <h2
               ref={newTextRef}
               className="
                 absolute
@@ -160,9 +159,8 @@ export function Mindset() {
               "
             >
               <span className="block">{t("statement.line3")}</span>
-
               <span className="block">{t("statement.line4")}</span>
-            </div>
+            </h2>
           </div>
 
           {/* CARDS */}
@@ -195,11 +193,11 @@ export function Mindset() {
                 "
               >
                 <div className="mb-5 flex items-center justify-between sm:mb-6 md:mb-8">
-                  <span className="text-[9px] tracking-[0.2em] opacity-40 sm:text-[10px]">
+                  <span className="text-[9px] tracking-[0.2em] opacity-55 sm:text-[10px]">
                     0{index + 1}
                   </span>
 
-                  <span className="text-[9px] tracking-[0.2em] opacity-30 sm:text-[10px]">
+                  <span className="text-[9px] tracking-[0.2em] opacity-50 sm:text-[10px]">
                     /
                   </span>
                 </div>

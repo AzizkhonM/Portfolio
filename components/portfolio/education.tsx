@@ -13,11 +13,11 @@ export function Education() {
         {/* HEADER */}
 
         <div className="flex items-start justify-between">
-          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-50">
+          <p className="text-[10px] font-medium uppercase tracking-[0.25em] opacity-65">
             {t("number")}
           </p>
 
-          <p className="text-[10px] uppercase tracking-[0.2em] opacity-50">
+          <p className="text-[10px] uppercase tracking-[0.2em] opacity-65">
             {t("label")}
           </p>
         </div>
@@ -26,13 +26,13 @@ export function Education() {
 
         <div className="mt-[8dvh]">
           <div className="flex items-center gap-4">
-            <span className="shrink-0 text-[9px] uppercase tracking-[0.2em] opacity-40">
+            <span className="shrink-0 text-[9px] uppercase tracking-[0.2em] opacity-55">
               2022
             </span>
 
             <div className="h-px flex-1 bg-[#171411]/15" />
 
-            <span className="shrink-0 text-[9px] uppercase tracking-[0.2em] opacity-40">
+            <span className="shrink-0 text-[9px] uppercase tracking-[0.2em] opacity-55">
               {t("period").replace("2022 — ", "")}
             </span>
           </div>
@@ -62,11 +62,11 @@ export function Education() {
               {/* TOP */}
 
               <div className="flex items-center justify-between">
-                <span className="text-[9px] tracking-[0.2em] opacity-40">
+                <span className="text-[9px] tracking-[0.2em] opacity-55">
                   {t(`items.${item}.number`)}
                 </span>
 
-                <span className="text-[9px] tracking-[0.2em] opacity-30">
+                <span className="text-[9px] tracking-[0.2em] opacity-50">
                   /
                 </span>
               </div>
@@ -74,7 +74,7 @@ export function Education() {
               {/* MAIN */}
 
               <div>
-                <p className="text-[9px] uppercase tracking-[0.18em] opacity-40">
+                <p className="text-[9px] uppercase tracking-[0.18em] opacity-55">
                   {t(`items.${item}.period`)}
                 </p>
 
@@ -86,17 +86,17 @@ export function Education() {
                   {t(`items.${item}.program`)}
                 </p>
 
-                <p className="mt-2 text-[10px] uppercase leading-[1.5] tracking-[0.08em] opacity-50">
+                <p className="mt-2 text-[10px] uppercase leading-[1.5] tracking-[0.08em] opacity-65">
                   {t(`items.${item}.type`)}
                 </p>
 
                 {item === "jdu" && (
-                  <p className="mt-5 max-w-xl border-t border-[#171411]/10 pt-4 text-[10px] leading-[1.6] opacity-50">
+                  <p className="mt-5 max-w-xl border-t border-[#171411]/10 pt-4 text-[10px] leading-[1.6] opacity-65">
                     {t(`items.${item}.coursework`)}
                   </p>
                 )}
 
-                <p className="mt-5 text-[9px] uppercase tracking-[0.15em] opacity-35">
+                <p className="mt-5 text-[9px] uppercase tracking-[0.15em] opacity-50">
                   {t("location")}
                 </p>
               </div>
@@ -106,7 +106,7 @@ export function Education() {
 
         {/* FOOTER */}
 
-        <div className="mt-8 flex justify-between text-[9px] uppercase tracking-[0.2em] opacity-35">
+        <div className="mt-8 flex justify-between text-[9px] uppercase tracking-[0.2em] opacity-50">
           <span>01 — 03</span>
 
           <span className="hidden md:block">EDUCATION & TRAINING</span>
