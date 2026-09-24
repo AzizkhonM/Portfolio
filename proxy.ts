@@ -1,12 +1,12 @@
 import createMiddleware from "next-intl/middleware";
-import { NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 
 import { routing } from "./i18n/routing";
 
 const intlMiddleware = createMiddleware(routing);
 
-export default function proxy(request: Request) {
-  const pathname = new URL(request.url).pathname;
+export default function proxy(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
 
   const response = intlMiddleware(request);
 
