@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import { Google_Sans_Code } from "next/font/google";
 
 import "./globals.css";
+import Script from "next/script";
 
 const siteUrl = "https://theazizkhon.uz";
 
@@ -121,7 +122,31 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${advaken.variable} ${raptor.variable}`}>
-      <body className={googleSansCode.variable}>{children}</body>
+      <body className={googleSansCode.variable}>
+        {/* Umami */}
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="bcba335a-1b1a-4634-ba7f-fd3e947727c5"
+          strategy="afterInteractive"
+        />
+
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-G2P0NLGHQV"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-G2P0NLGHQV');
+          `}
+        </Script>
+
+        {children}
+      </body>
     </html>
   );
 }
