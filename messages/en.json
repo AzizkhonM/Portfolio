@@ -49,6 +49,10 @@
       "zmap": {
         "name": "ZMap",
         "description": "An interactive map veto system for CS2. Teams ban and pick maps in real time while the veto process is controlled across separate devices."
+      },
+      "cs2-seeding": {
+        "name": "CS2 Power Seeding",
+        "description": "An ML system that predicts CS2 match outcomes and generates explainable tournament seeding. Built on 7,033 professional matches and achieving 0.841 ROC-AUC."
       }
     }
   },

@@ -14,14 +14,21 @@ const projects = [
     number: "01",
     stack: "NEXT.JS / PRISMA / NEON (POSTGRES)",
     github: "https://github.com/AzizkhonM/zonter-dashboard",
-    link: "https://zonter.vercel.app/"
+    link: "https://zonter.vercel.app/",
   },
   {
     key: "zmap",
     number: "02",
     stack: "NEXT.JS / PRISMA / NEON (POSTGRES)",
     github: "https://github.com/AzizkhonM/zmap",
-    link: "https://zzmapp.vercel.app/"
+    link: "https://zzmapp.vercel.app/",
+  },
+  {
+    key: "cs2-seeding",
+    number: "03",
+    stack: "PYTHON / SCIKIT-LEARN / XGBOOST / MLFLOW / FASTAPI",
+    github: "https://github.com/AzizkhonM/CS2-Capstone-Project",
+    link: "https://cs2-seeding.vercel.app/",
   },
 ] as const;
 

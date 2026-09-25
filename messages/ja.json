@@ -49,6 +49,10 @@
       "zmap": {
         "name": "ZMap",
         "description": "CS2向けのインタラクティブなマップVetoシステム。チームがリアルタイムでマップをBan・Pickし、複数のデバイスからVetoを進行できる。"
+      },
+      "cs2-seeding": {
+        "name": "CS2 Power Seeding",
+        "description": "CS2の試合結果を予測し、説明可能なトーナメントシードを生成するMLシステム。7,033件のプロ試合データを基に構築し、ROC-AUC 0.841を達成。"
       }
     }
   },

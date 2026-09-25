@@ -49,6 +49,10 @@
       "zmap": {
         "name": "ZMap",
         "description": "CS2 uchun interaktiv map veto tizimi. Jamoalar real vaqt rejimida maplarni ban va pick qiladi, veto jarayoni esa alohida qurilmalar orqali boshqariladi."
+      },
+      "cs2-seeding": {
+        "name": "CS2 Power Seeding",
+        "description": "CS2 o‘yin natijalarini bashorat qiluvchi va turnirlar uchun tushuntiriladigan seeding yaratadigan ML tizimi. 7 033 ta professional match asosida qurilgan va 0.841 ROC-AUC natijaga erishgan."
       }
     }
   },
